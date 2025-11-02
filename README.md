@@ -26,9 +26,9 @@ No installation is required — `pdb` is included with Python by default.
 python --version
 # or
 python3 --version
+```
 
-
-🖥️ 2. Running pdb in Windows or Linux
+## 🖥️ 2. Running pdb in Windows or Linux
 Option 1: Run with the -m pdb flag
 python -m pdb your_script.py
 
@@ -36,7 +36,7 @@ python -m pdb your_script.py
 This starts the script in interactive debug mode from the very first line.
 
 
-💡 3. Common pdb Commands
+## 💡 3. Common pdb Commands
 
 | Command           | Description                                                 |
 | ----------------- | ----------------------------------------------------------- |
@@ -59,18 +59,18 @@ This starts the script in interactive debug mode from the very first line.
 | `whatis`          | Show the type of a variable                                 |
 
 
-4. Using pdb on Windows CMD
+## 4. Using pdb on Windows CMD
 - Open Command Prompt
 - Navigate to the script directory using:   cd path\to\your\project
 - Run the script with:  python -m pdb script.py
 
-🐧 5. Using pdb on Linux Terminal
+## 🐧 5. Using pdb on Linux Terminal
 Steps are the same:
 cd /path/to/project
 python3 -m pdb script.py
 
 
-🧩 6. Debugging Tips
+## 🧩 6. Debugging Tips
 
 Use pp variable for nested structures (e.g., dicts, lists)
 
@@ -81,7 +81,7 @@ Use !print(variable) to execute inline Python commands
 Type where to check your current position in the call stack
 
 
-⚖️ 7. Comparison: pdb vs GUI Debuggers (e.g., PyCharm, VSCode)
+## ⚖️ 7. Comparison: pdb vs GUI Debuggers (e.g., PyCharm, VSCode)
 
 | Feature          | `pdb` (Command Line)                      | GUI Debugger (PyCharm, VSCode)         |
 | ---------------- | ----------------------------------------- | -------------------------------------- |
@@ -97,7 +97,7 @@ Type where to check your current position in the call stack
 
 
 
-✅ 8. Pros and Cons
+## ✅ 8. Pros and Cons
 👍 Pros
 
 No installation or GUI needed
@@ -124,7 +124,7 @@ Limited breakpoint management (compared to IDEs)
 
 
 
-🧩 9. Summary
+## 🧩 9. Summary
 
 | Topic          | Description                                      |
 | -------------- | ------------------------------------------------ |
